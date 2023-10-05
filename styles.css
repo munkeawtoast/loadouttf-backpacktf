@@ -1,0 +1,86 @@
+.price-tag-container {
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 20px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  border-radius: 0 0 0 12px;
+}
+
+.price-tag-tag {
+  display: flex;
+  font-weight: normal;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 3px;
+  background-color: #292725;
+  transition: all ease-out 0.15s;
+  height: 100%;
+  align-items: center;
+}
+
+.price-tag-tag:hover {
+  background-color: gray;
+}
+
+.price-tag-container-non_craftable {
+  background: repeating-linear-gradient(
+    45deg,
+    #292725,
+    #292725 10px,
+    rgb(67, 67, 67) 10px,
+    rgb(67, 67, 67) 20px
+  );
+}
+
+.price-tag-container-non_craftable:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    #464646,
+    #464646 10px,
+    gray 10px,
+    gray 20px
+  );
+}
+
+.price-tag-currency_img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.price-tag-tag-quality_0 {
+  color: #b2b2b2;
+}
+.price-tag-tag-quality_1 {
+  color: #4d7455;
+}
+.price-tag-tag-quality_3 {
+  color: #476291;
+}
+.price-tag-tag-quality_5 {
+  color: #8650ac;
+}
+.price-tag-tag-quality_6 {
+  color: #ffd700;
+}
+.price-tag-tag-quality_7 {
+  color: #70b04a;
+}
+.price-tag-tag-quality_8 {
+  color: #a50f79;
+}
+.price-tag-tag-quality_9 {
+  color: #70b04a;
+}
+.price-tag-tag-quality_11 {
+  color: #cf6a32;
+}
+.price-tag-tag-quality_13 {
+  color: #38f3ab;
+}
+.price-tag-tag-quality_14 {
+  color: #aa0000;
+}
